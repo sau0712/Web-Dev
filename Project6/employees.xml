@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="employees.xsl"?>
+
+<employees>
+
+<employee>
+<name>Saurabh Rathod</name>
+<id>E101</id>
+<department>IT</department>
+<salaryperday>1200</salaryperday>
+<days>26</days>
+</employee>
+
+<employee>
+<name>Priya Sharma</name>
+<id>E102</id>
+<department>HR</department>
+<salaryperday>1000</salaryperday>
+<days>24</days>
+</employee>
+
+<employee>
+<name>Rahul Patil</name>
+<id>E103</id>
+<department>Finance</department>
+<salaryperday>1500</salaryperday>
+<days>25</days>
+</employee>
+
+<employee>
+<name>Anjali More</name>
+<id>E104</id>
+<department>Marketing</department>
+<salaryperday>1100</salaryperday>
+<days>27</days>
+</employee>
+
+</employees>

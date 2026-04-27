@@ -1,0 +1,111 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:linear-gradient(to right,#4facfe,#00f2fe);
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.container{
+width:900px;
+background:white;
+display:flex;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 0 15px rgba(0,0,0,0.2);
+}
+
+.left-box{
+width:40%;
+background:#0d6efd;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+.left-box img{
+width:180px;
+height:180px;
+border-radius:50%;
+margin-bottom:20px;
+object-fit:cover;
+border:5px solid white;
+}
+
+.left-box h2{
+margin-bottom:10px;
+}
+
+.right-box{
+width:60%;
+padding:30px;
+}
+
+.right-box h1{
+text-align:center;
+margin-bottom:20px;
+color:#0d6efd;
+}
+
+label{
+display:block;
+margin-top:10px;
+font-weight:bold;
+}
+
+input,select,textarea{
+width:100%;
+padding:10px;
+margin-top:5px;
+border:1px solid #ccc;
+border-radius:6px;
+}
+
+textarea{
+height:80px;
+resize:none;
+}
+
+.gender,
+.check{
+margin-top:8px;
+display:flex;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.gender input,
+.check input{
+width:auto;
+}
+
+button{
+margin-top:20px;
+padding:10px 20px;
+border:none;
+border-radius:6px;
+cursor:pointer;
+font-size:16px;
+margin-right:10px;
+}
+
+button[type="submit"]{
+background:#198754;
+color:white;
+}
+
+button[type="reset"]{
+background:#dc3545;
+color:white;
+}
+
+button:hover{
+opacity:0.9;
+}

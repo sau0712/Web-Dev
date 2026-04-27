@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Registration</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="box">
+
+<h1>Student Registration</h1>
+
+<form action="insert.php" method="POST" onsubmit="return validateForm()">
+
+<input type="text" name="name" id="name" placeholder="Full Name">
+<span id="nameError"></span>
+
+<input type="text" name="email" id="email" placeholder="Email">
+<span id="emailError"></span>
+
+<input type="text" name="mobile" id="mobile" placeholder="Mobile Number">
+<span id="mobileError"></span>
+
+<select name="course" id="course">
+<option value="">Select Course</option>
+<option>B.Tech</option>
+<option>BCA</option>
+<option>BBA</option>
+<option>MCA</option>
+</select>
+<span id="courseError"></span>
+
+<button type="submit">Register</button>
+
+<a href="view.php" class="viewbtn">View Students</a>
+
+</form>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

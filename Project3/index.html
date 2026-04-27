@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Profile Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="left-box">
+
+<img src="https://media.gettyimages.com/id/2158556644/photo/crowd-of-happy-students-applauding-to-their-professor-in-amphitheater.jpg?s=612x612&w=gi&k=20&c=HaUKyehLScoplHaAvx9p-S8B0pxGguWfGY9I0XMIkbA=" class="profile-img">
+
+<h2>Student Profile</h2>
+<p>Fill all details correctly</p>
+
+</div>
+
+<div class="right-box">
+
+<form id="studentForm">
+
+<h1>Student Registration</h1>
+
+<label>Full Name</label>
+<input type="text" id="name">
+<span id="nameError"></span>
+
+<label>Email</label>
+<input type="text" id="email">
+<span id="emailError"></span>
+
+<label>Age</label>
+<input type="number" id="age">
+<span id="ageError"></span>
+
+<label>Roll Number</label>
+<input type="text" id="roll">
+<span id="rollError"></span>
+
+<label>Profile Photo</label>
+<input type="file" id="photo">
+<span id="photoError"></span>
+
+<button type="submit" id="submitBtn">Submit</button>
+
+</form>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
